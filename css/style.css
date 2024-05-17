@@ -159,6 +159,7 @@
     margin-bottom: 50px;
 }
 .selecciones-content p{
+ 
     font-size: 16px;
     color: #c5c5c5;
     margin-bottom: 50px;
@@ -170,14 +171,18 @@
     margin-bottom: 50px;
 }
 .selecciones-1{
-    padding: 0 100px;
+    text-transform: uppercase;
+    padding: 0 50px;
 }
 .selecciones-1 img{
-    width: 25px;
-    margin-bottom: 15px;
+   
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 20px;
+    
 }
 .selecciones-1 h3{
-    color:#EACCB3 ;
+    color:#df7912 ;
     font-size: 10px;
 }
 .general {
@@ -268,7 +273,7 @@ link h3{
         top:100%;
         left:0;
         right: 0;
-        background-color: #323337;
+        background-color: #ec6e0d;
         display: none;
     }
     .menu .narbar ul li{
