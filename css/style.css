@@ -18,6 +18,7 @@
     display:flex;
   
 }
+
 .menu{
     position: fixed;
     top:0;
@@ -35,6 +36,9 @@
 }
 img{
     padding: 10px;
+}
+.narbar{
+    
 }
 .menu .navbar ul li a {
     font-size: 10px;
