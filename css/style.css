@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200; 1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -14,10 +13,13 @@
  }
 .menu container{
     max-width: 1200px;
-    margin: 0 auto ;
+    margin: 0 10px 0 20px ;
+    height: 100vh;
+    display:flex;
+  
 }
 .menu{
-    position: absolute;
+    position: fixed;
     top:0;
     left: 0;
     right: 0;
@@ -31,15 +33,22 @@
     font-size: 25px;
     font-weight:800 ;   
 }
+img{
+    padding: 10px;
+}
 .menu .navbar ul li a {
     font-size: 10px;
     padding: 20px;
     color: #FFFDFC;
     display: block;
     font-weight: 600;
+    transition: all ease-in-out .6s;
+    
 } 
+
 .menu .navbar ul li a:hover{
-    color: #ce967b;
+    color: #fcf8f7;
+
 }
 
 #menu{
@@ -86,7 +95,7 @@
     text-transform: uppercase;
 }
 .btn-1:hover {
-    background-color: #723819;
+    background-color: #756359;
 }
 .voleibol{
     padding: 100px;
@@ -109,7 +118,7 @@
 .txt-p{
     font-size: 16px;
     color: #414247;
-    padding: 0 50px;
+    padding: 0 30px;
     margin-bottom: 35px;
 }
 .voleibol-group{
@@ -251,12 +260,12 @@ p{
 
 
 
-@media(max-width:991px){
+@media(max-width:700px){
     .menu{
-        padding: 30px;
+        padding: 25px;
     }
     .menu label{
-        display: initial;
+        display: flex;
     }
     .menu .navbar{
         position: absolute;
@@ -278,6 +287,11 @@ p{
     .header-content{
         padding: 100px 30px;
     }
+    .contenido-header>img{
+        width: 120px;
+        height: 120px;
+        margin:20px 0;
+     }
     .header-content p{
         padding: 0;
     }
@@ -302,6 +316,11 @@ p{
     }
     .selecciones-content p{
        padding: 0;
+    }
+    .selecciones-1 img{
+        width: 120px;
+        height: 120px;
+        margin:20px 0 10px;
     }
     .selecciones-group {
         margin-bottom: 0;
